@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hdpay]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TS_001(failed)">
+    <groups>
+      <run>
+        <exclude name=""/>
+      </run>
+    </groups>
+    <classes>
+      <class name="h2h.TS_001">
+        <methods>
+          <include name="TC_12"/>
+          <include name="OpenBrowser"/>
+          <include name="TC_08"/>
+          <include name="TC_15"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- h2h.TS_001 -->
+      <class name="h2h.TS_003">
+        <methods>
+          <include name="TC_09"/>
+          <include name="TC_15"/>
+          <include name="TC_26"/>
+          <include name="TC_37"/>
+          <include name="closebrowser"/>
+          <include name="TC_17"/>
+          <include name="TC_16"/>
+          <include name="TC_27"/>
+          <include name="TC_11"/>
+          <include name="TC_33"/>
+          <include name="TC_29"/>
+          <include name="TC_02"/>
+          <include name="TC_13"/>
+          <include name="TC_35"/>
+          <include name="TC_12"/>
+          <include name="TC_34"/>
+          <include name="OpenBrowser"/>
+          <include name="TC_14"/>
+          <include name="TC_25"/>
+          <include name="TC_36"/>
+          <include name="TC_31"/>
+          <include name="TC_30"/>
+          <include name="TC_10"/>
+          <include name="TC_32"/>
+        </methods>
+      </class> <!-- h2h.TS_003 -->
+    </classes>
+  </test> <!-- TS_001(failed) -->
+</suite> <!-- Failed suite [hdpay] -->

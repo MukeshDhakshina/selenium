@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="h2h_New.GEPG">
+        <methods>
+          <include name="TS_GePG_54_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_TRANSFER_Gepg_Invoice"/>
+          <include name="TS_GePG_108_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="TS_GePG_72_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_Gepg_Invoice"/>
+          <include name="TS_GePG_88_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="TS_GePG_38_In_Gepg_payment_Non_Tiss_Prepaid_Invoice_In__prepaid_Check_when_it_is_infinite_Type_means"/>
+          <include name="TS_GePG_103_In_Gepg_payment_Non_Prepaid_invoice_Entering_the_minus_value_in_payment_amount_field_and_after_click_the_sumbit"/>
+          <include name="TS_GePG_16_In_Gepg_payment_Non_Tiss_postpaid_CASH_invoice_After_entering_the_correct_payment_amount_and_click_the_submit_button"/>
+          <include name="TS_GePG_58_In_Gepg_payment_Tiss_Postpaid_invoice_Check_After_entering_the_invoice_and_click_the_Get_bill_details"/>
+          <include name="TS_GePG_84_In_Gepg_payment_Tiss_TRANSFER_postpaid_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_20_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_Gepg_Invoice"/>
+          <include name="TS_GePG_24_In_Gepg_payment_Non_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_Exact_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_51_In_Gepg_payment_Non_Tiss_Prepaid_invoice_After_entering_the_correct_payment_amount_and_click_the_submit_button"/>
+          <include name="TS_GePG_46_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="TS_GePG_80_In_Gepg_payment_Tiss_postpaid_invoice_Payment_type_Transfe_Payment_mode_Full_After_entering_the_invoice_check_the_payment_amount_Payment_amount_should_be_editable_in_that_field_If_we_enter_less_than_the_invoice_amount"/>
+          <include name="TS_GePG_101_In_Gepg_payment_Tiss_Prepaid_invoice_Payment_type_Transfer_Payment_mode_Infinite_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_104_In_Gepg_payment_Tiss_Prepaid_invoice_After_entering_the_correct_payment_amount_and_click_the_submit_button"/>
+          <include name="TS_GePG_36_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_64_In_Gepg_payment_Tiss_Postpaid_invoice_Payment_type_Cash_Payment_mode_Full_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_41_In_Gepg_payment_Non_Prepaid_invoice_Entering_the_minus_value_in_payment_amount_field_and_after_click_the_sumbit"/>
+          <include name="TS_GePG_35_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="TS_GePG_21_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="TS_GePG_60_In_Gepg_payment_Tiss_Postpaid_Invoice_In_Postpaid_Check_it_is_a_Partial_or_Infinity_or_limited_or_Full_Type_means"/>
+          <include name="TS_GePG_43_In_Gepg_payment_Non_Tiss_Prepaid_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_81_In_Gepg_payment_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_Limited_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_29_In_Gepg_payment_Non_Tiss_postpaid_invoice_Check_whether_the_Outstanding_amount_resenting_the_right_balance_amount_or_Not"/>
+          <include name="TS_GePG_59_In_Gepg_payment_Tiss_Postpaid_invoice_In_Postpaid_Check_when_it_is_Exact_Type_means"/>
+          <include name="TS_GePG_94_In_Gepg_payment_Prepaid_invoice_Entering_the_minus_value_in_payment_amount_field_and_after_click_the_sumbit"/>
+          <include name="OpenBrowser"/>
+          <include name="TS_GePG_105_In_Gepg_payment_Non_Tiss_Prepaid_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_25_In_Gepg_payment_Non_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_Infinite_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_49_In_Gepg_payment_Non_Tiss_Prepaid_invoice_Check_whether_the_Outstanding_amount_presenting_the_right_balance_amount_or_Not"/>
+          <include name="TS_GePG_69_In_Gepg_payment_Tiss_postpaid_CASH_invoice_After_entering_the_correct_payment_amount_and_click_the_submit_button"/>
+          <include name="TS_GePG_82_In_Gepg_payment_Tiss_postpaid_invoice_Check_whether_the_Outstanding_amount_resenting_the_right_balance_amount_or_Not"/>
+          <include name="TS_GePG_40_In_Gepg_payment_Non_Tiss_Prepaid_invoice_Check_whether_the_Outstanding_amount_presenting_the_right_balance_amount_or_Not"/>
+          <include name="TS_GePG_47_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_73_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="closebrowser"/>
+          <include name="TS_GePG_45_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_CASH_Gepg_Invoice"/>
+          <include name="TS_GePG_87_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_Gepg_Invoice"/>
+          <include name="TS_GePG_55_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="TS_GePG_61_In_Gepg_payment_Tiss_Postpaid_invoice_Payment_type_Cash_Payment_mode_Partial_After_entering_the_invoice_check_the_payment_amounnt"/>
+          <include name="TS_GePG_92_In_Gepg_payment_Tiss_Prepaid_invoice_Payment_type_Cash_Payment_mode_Infinite_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_17_In_Gepg_payment_Non_Tiss_postpaid_CASH_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_31_In_Gepg_payment_Non_Tiss_postpaid_invoice_Transfe_After_entering__the_correct_payment_amount_and__click_the_submit_button"/>
+          <include name="TS_GePG_28_In_Gepg_payment_Non_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_Limited_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_52_In_Gepg_payment_Non_Tiss_Prepaid_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_66_In_Gepg_payment_Tiss_Postpaid_invoice_Payment_type_Cash_Payment_mode_Limited_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_23_In_Gepg_payment_Non_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_partial_After_entering_the_invoice_check_the_payment_amoun"/>
+          <include name="TS_GePG_70_In_Gepg_payment_Tiss_postpaid_CASH_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_91_In_Gepg_payment_Tiss_Prepaid_Invoice_In__prepaid_Check_when_it_is_infinite_Type_means"/>
+          <include name="TS_GePG_100_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_19_In_Gepg_payment_Non_Tiss_postpaid_invoice_Payment_type_Cash_Payment_mode_Full_After_submitting_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_63_In_Gepg_payment_Tiss_Postpaid_invoice_Payment_type_Cash_Payment_mod_Infinite_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_77_In_Gepg_payment_Tiss_Prepaid_invoice_Payment_type_Transfer_Payment_mode_Exact_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_78_In_Gepg_payment_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_Infinite_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_93_In_Gepg_payment_Tiss_Prepaid_invoice_Check_whether_the_Outstanding_amount_presenting_the_right_balance_amount_or_Not"/>
+          <include name="TS_GePG_27_In_Gepg_payment_Non_Tiss_postpaid_invoice_Payment_type_Transfe_Payment_mode_Full_After_entering_the_invoice_check_the_payment_amount_Payment_amount_should_be_editable_in_that_field_If_we_enter_less_than_the_invoice_amount"/>
+          <include name="TS_GePG_22_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_30_In_Gepg_payment_Non_Tiss_postpaid_invoice_Entering_the_minus_value_inpayment_amount_field_and_after_click_the_sumbit"/>
+          <include name="TS_GePG_86_In_Gepg_payment_Tiss_TRANSFER_postpaid_invoice_Entering_the_minus_value_inpayment_amount_field_and_after_click_the_sumbit"/>
+          <include name="TS_GePG_74_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_39_In_Gepg_payment_Non_Tiss_Prepaid_invoice_Payment_type_Cash_Payment_mode_Infinite_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_96_In_Gepg_payment_Tiss_Prepaid_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_67_In_Gepg_payment_Tiss_postpaid_invoice_Check_whether_the_Outstanding_amount_resenting_the_right_balance_amount_or_Not"/>
+          <include name="TS_GePG_83_In_Gepg_payment_Tiss_postpaid_invoice_Transfer_After_entering__the_correct_payment_amount_and__click_the_submit_button"/>
+          <include name="TS_GePG_107_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_TRANSFER_Gepg_Invoice"/>
+          <include name="TS_GePG_89_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_65_In_Gepg_payment_Tiss_postpaid_invoice_Payment_type_Cash_Payment_mode_Full_After_entering_the_invoice_check_the_payment_amount_Payment_amount_should_be_editable_in_that_field_the_invoice_amount"/>
+          <include name="TS_GePG_34_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_Gepg_Invoice"/>
+          <include name="TS_GePG_99_In_Approval_Page_Check_After_the_authorization_of_gepy_payment_check_whether_the_request_send_to_Hdpay_or_not"/>
+          <include name="TS_GePG_98_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Authorize_the_CASH_Gepg_Invoice"/>
+          <include name="TS_GePG_48_In_Gepg_payment_NonTiss_Prepaid_invoice_Payment_type_Transfer_Payment_mode_Infinite_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_76_In_Gepg_payment_Tiss_Prepaid_invoice_Payment_type_Transfer_Payment_mode_Partial_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_56_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_37_In_Gepg_payment_Non_tiss_prepaid_invoice_Check_After_entering_the_invoice_and_click_the_Get_bill_details"/>
+          <include name="TS_GePG_68_In_Gepg_payment_Tiss_postpaid_invoice_Entering_the_minus_value_inpayment_amount_field_and_after_click_the_sumbit"/>
+          <include name="TS_GePG_57_In_Gepg_payment_Check_the_Tiss_invoice_when_the_invoice_will_be_Tiss_means"/>
+          <include name="TS_GePG_42_In_Gepg_payment_Non_Tiss_Prepaid_invoice_After_entering_the_correct_payment_amount_and_click_the_submit_button"/>
+          <include name="TS_GePG_90_In_Gepg_payment_Non_tiss_Within_Bank_Postpaid_invoice_No_Check_after_entering_the_invoice_No_and_click_the_Get_bill_details"/>
+          <include name="TS_GePG_95_In_Gepg_payment_Tiss_Prepaid_invoice_After_entering_the_correct_payment_amount_and_click_the_submit_button"/>
+          <include name="TS_GePG_102_In_Gepg_payment_Non_Tiss_Prepaid_invoice_Check_whether_the_Outstanding_amount_presenting_the_right_balance_amount_or_Not"/>
+          <include name="TS_GePG_109_In_CHECKER_OR_ADMIN_ROLE_In_Approval_page_after_Reject_the_Gepg_Invoice"/>
+          <include name="TS_GePG_50_In_Gepg_payment_Non_Prepaid_invoice_Entering_the_minus_value_in_payment_amount_field_and_after_click_the_sumbit"/>
+          <include name="TS_GePG_32_In_Gepg_payment_Non_Tiss_TRANSFER_postpaid_invoice_Re_submititing_the_same_invoice"/>
+          <include name="TS_GePG_75_In_Gepg_payment_Tiss_Prepaid_invoice_Check_After_entering_the_invoice_and_click_the_Get_bill_details"/>
+          <include name="TS_GePG_26_In_Gepg_payment_Non_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_Full_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_62_In_Gepg_payment_Tiss_Postpaid_invoice_Payment_type_Cash_Payment_mode_Exact_After_entering_the_invoice_check_the_payment_amount"/>
+          <include name="TS_GePG_79_In_Gepg_payment_Tiss_postpaid_invoice_Payment_type_Transfer_Payment_mode_Full_After_entering_the_invoice_check_the_payment_amount"/>
+        </methods>
+      </class> <!-- h2h_New.GEPG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
